@@ -1,0 +1,40 @@
+.integration-container {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  &__section {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    &__header {
+      margin-top: 98px;
+
+      h4 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        color: var(--primary-color);
+        margin-bottom: 35px;
+      }
+
+      &__description{
+        display: flex;
+
+        .vertical{
+            border: 3px solid var(--primary-color);
+            height: 43px;
+        }
+
+        p{
+            font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: var();
+        }
+      }
+    }
+  }
+}

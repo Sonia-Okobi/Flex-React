@@ -1,0 +1,55 @@
+.qualities-container {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  &__section {
+    max-width: 1170px;
+    margin: 0 auto;
+
+    h2 {
+      margin-top: 260px;
+      max-width: 437px;
+      line-height: 52px;
+      letter-spacing: 0.2px;
+      margin-bottom: 50px;
+    }
+
+    &__cards {
+      display: grid;
+      margin-left: auto;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 180px;
+      margin-left: 370px;
+
+      &__card {
+        padding: 33px 28.5px;
+        background: var(--white);
+        box-shadow: 5px 2px 24px rgba(0, 0, 0, 0.05);
+        border-radius: 4px;
+
+        img {
+          width: 48px;
+        }
+
+        h3 {
+          margin-top: 24px;
+          margin-bottom: 24px;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          letter-spacing: 0.2px;
+          color: var(--black);
+        }
+
+        p {
+          max-width: 322px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          color: var(--black5);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.company-hero {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  &__section {
+    padding: 132px 119px 0 119px;
+    max-width: 1408px;
+    margin: 4px auto 165px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--white2);
+    align-items: center;
+
+    &__text {
+      h1 {
+        max-width: 464px;
+        font-weight: 700;
+        line-height: 68px;
+        margin-bottom: 20px;
+      }
+
+      &__dots {
+        display: flex;
+
+        &__dot {
+          border-radius: 50%;
+          height: 7px;
+          width: 7px;
+          background: var(--primary-color);
+          margin-right: 9px;
+        }
+      }
+    }
+
+    &__image {
+      padding: 195px 48px 48px;
+      background: linear-gradient(180deg, var(--black2b) 0%, var(--black4) 100%),
+        url(../../../../assets/images/Base-company.png);
+      background-position: center;
+      background-size: cover;
+
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--white);
+        max-width: 557px;
+      }
+    }
+  }
+}

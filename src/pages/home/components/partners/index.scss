@@ -1,0 +1,40 @@
+.partners-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: var(--white);
+
+  &__section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 153px;
+    padding-bottom: 148px;
+
+    &__image {
+      max-width: 589px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &__text {
+      h1 {
+        font-weight: 600;
+        line-height: 53px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 38px;
+        color: var(--black3);
+        margin-top: 24px;
+        margin-bottom: 46px;
+        max-width: 487px;
+      }
+    }
+  }
+}
