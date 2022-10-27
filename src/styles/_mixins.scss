@@ -1,0 +1,11 @@
+// @mixin mobile{
+//     @content;
+// }
+
+@mixin mobile($width){
+    @media (max-width: $width) {
+        @content;
+    }
+}
+
+// 975px

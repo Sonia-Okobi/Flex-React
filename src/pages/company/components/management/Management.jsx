@@ -4,17 +4,17 @@ import laptop from '../../../../assets/images/laptop.png';
 
 export default function Management() {
   return (
-    <div className="management-container">
-      <div className="management-container__section">
+    <div className="management app-container">
+      <div className="app-container__section">
         <h2>
           We provide a complete software platform for managing subscription
           services
         </h2>
-        <div className="management-container__section__description">
-          <div className="management-container__section__description__image">
+        <div className="management__description">
+          <div className="management__description__image">
             <img src={laptop} alt="Laptop" />
           </div>
-          <div className="management-container__section__description__text">
+          <div className="management__description__text">
             <h4>
               We are experts in our field and are able to transform and provide
               subscription services , integrated payment methods and wide range

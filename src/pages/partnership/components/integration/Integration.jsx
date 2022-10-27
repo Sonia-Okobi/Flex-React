@@ -3,11 +3,11 @@ import './index.scss';
 
 export default function Integration() {
   return (
-    <div className="integration-container">
-      <div className="integration-container__section">
-        <div className="integration-container__section__header">
+    <div className="integration app-container">
+      <div className="app-container__section">
+        <div className="integration__header">
           <h4>Our Partners</h4>
-          <div className="integration-container__section__header__description">
+          <div className="integration__header__description">
             <div className="vertical"></div>
             <p>
               Let’s help each other grow just like subscriptions, partnerships
@@ -16,7 +16,7 @@ export default function Integration() {
           </div>
           <h2>“Partner integrations made simple”</h2>
         </div>
-        <div className="integration-container__section__description">
+        <div className="integration__description">
           <p>
             Flex is a fast-growing billing and automation software developer
             with worldwide presence. We offer a complete product stack for

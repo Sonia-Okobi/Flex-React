@@ -1,6 +1,7 @@
 .app-logo {
   max-width: 114px;
-  
+  flex-shrink: 0;
+
   img {
     display: flex;
     width: 100%;

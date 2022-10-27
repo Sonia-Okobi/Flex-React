@@ -10,8 +10,8 @@ export default function Card({image, alternative, header, description, authorima
         <div className="card-container__text">
             <h3>{header}</h3>
             <p>{description}</p>
-            <div className="card-container__text__author">
-                <img className='card-container__text__author__avatar' src={authorimage} alt={authoralternative} />
+            <div className="author">
+                <img className='author__avatar' src={authorimage} alt={authoralternative} />
                 <h4>{author}</h4>
                 <h5>{date}</h5>
             </div>

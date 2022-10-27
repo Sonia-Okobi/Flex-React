@@ -1,72 +1,74 @@
-.footer-container {
-  padding-left: 20px;
-  padding-right: 20px;
-  background: var(--blue) url(../../../assets/images/Base.png);
+.footer {
+  &.app-container {
+    background: rgba(25, 29, 108, 0.9) url(../../../assets/images/Base.png);
 
-  h2 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    color: var(--white);
-    margin-bottom: 24px;
-  }
-  p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: var(--white);
-  }
-  h4 {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    color: var(--white);
-  }
-
-  &__section {
-    display: flex;
-    max-width: 1098px;
-    margin-left: 135px;
-    margin-right: 207px;
-    padding-top: 54px;
-    padding-bottom: 14px;
-
-    &__quicklinks {
-      margin-right: 182px;
-
-      &__links {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 30px;
-        color: var(--white);
-        margin-bottom: 54px;
-
-        li {
-          margin-bottom: 14px;
-        }
-      }
+    h2 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      color: var(--white);
+      margin-bottom: 24px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: var(--white);
+    }
+    h4 {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      color: var(--white);
     }
 
-    &__newsletter {
-      margin-right: 137px;
-
-      &__input {
-        margin-top: 12px;
-        margin-bottom: 15px;
-      }
+    .app-container__section {
+      display: flex;
+      max-width: 1098px;
+      margin: 0 auto;
+      padding-top: 54px;
+      padding-bottom: 14px;
     }
+  }
+  &__quicklinks {
+    margin-right: 182px;
 
-    &__contact {
-      &__email {
+    &__links {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: var(--white);
+      margin-bottom: 54px;
+
+      li {
         margin-bottom: 14px;
       }
-      &__socials {
-        margin-top: 110px;
-        margin-bottom: 80px;
+    }
+  }
 
-        a {
-          margin-right: 16px;
-        }
+  &__newsletter {
+    margin-right: 137px;
+
+    &__input {
+      margin-top: 12px;
+      margin-bottom: 15px;
+    }
+    .submit {
+      padding: 18px 31px;
+    }
+  }
+
+  &__contact {
+    &__email {
+      margin-bottom: 14px;
+    }
+    &__socials {
+      display: flex;
+      margin-top: 110px;
+      margin-bottom: 80px;
+
+      a {
+        margin-right: 16px;
       }
     }
   }

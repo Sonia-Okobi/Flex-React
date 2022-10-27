@@ -7,13 +7,13 @@ import map from '../../assets/images/Map-bg.png'
 export default function Terms() {
   return (
     <DefaultLayout>
-      <div className="terms-container">
-        <div className="terms-container__section">
+      <div className="terms app-container">
+        <div className="app-container__section">
           <h1>Terms and Conditions</h1>
           <img className='line' src={line} alt="Line" />
-          <div className="terms-container__section__conditions">
+          <div className="terms__conditions">
             <img src={map} alt="Map" />
-            <p className='terms-container__section__conditions__description'>
+            <p className='terms__conditions__description'>
               Flex is the best and easiest way to manage your multiple
               subcriptions. It gives you the freedom to control and keep track
               of your expenses.

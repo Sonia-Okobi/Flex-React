@@ -1,65 +1,77 @@
-.customers-container {
-  padding-left: 20px;
-  padding-right: 20px;
+.customers {
+  &.app-container {
+    .app-container__section {
+      max-width: 1246px;
+      position: relative;
+      margin-top: 151px;
+    }
+  }
 
-  &__section {
-    max-width: 1246px;
+  h1 {
+    font-weight: 700;
+    line-height: 53px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: rgba(var(--black3-rgb), 0.9);
+    max-width: 602px;
     margin: 0 auto;
-    margin-top: 151px;
+    text-align: center;
+  }
 
-    h1 {
-      font-weight: 700;
-      line-height: 53px;
-      text-align: center;
-      margin-bottom: 24px;
+  &__map {
+    max-width: 1246px;
+    margin-top: -33.55px;
+    display: flex;
+    flex-shrink: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__card {
+    position: absolute;
+    top: 314px;
+    left: 423px;
+    text-align: center;
+    padding: 59.28px 44px 56px 44px;
+
+    &__avatar {
+      max-width: 80px;
+      margin: -96px auto 0;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &__quote {
+      width: 27.15px;
+      margin-top: -19px;
     }
 
     p {
       font-weight: 400;
-      font-size: 24px;
-      line-height: 34px;
-      color: var(--black3);
-      max-width: 602px;
-      margin: 0 auto;
-      text-align: center;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: -0.528px;
+      color: var(--black);
+      max-width: 312px;
     }
 
-    &__map {
-      width: 100%;
-      margin-top: -33.55px;
-      position: relative;
-    }
-
-    &__card {
-      position: absolute;
-      text-align: center;
-      padding: 59.28px 44px 56px 44px;
-      &__avatar {
-        width: 80px;
-        margin-top: -40px;
-      }
-
-      &__quote {
-        width: 27.15px;
-      }
-
-      p {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 28px;
-        letter-spacing: -0.528px;
-        color: var(--black);
-        max-width: 312px;
-      }
-
-      h4 {
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 19px;
-        letter-spacing: -0.528px;
-        color: var(--primary-color);
-        margin-top: 20px;
-      }
+    h4 {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: -0.528px;
+      color: var(--primary-color);
+      margin-top: 20px;
     }
   }
 }

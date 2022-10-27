@@ -1,0 +1,57 @@
+.base-card {
+  border-radius: 12px;
+  background: var(--white);
+}
+
+.app-container {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  &__section {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+}
+
+.dots {
+  display: flex;
+
+  &__dot {
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    background: rgba(var(--primary-color-rgb), 0.4);
+    margin-right: 9px;
+  }
+}
+
+.author {
+  display: flex;
+  align-items: center;
+
+  &__avatar {
+    width: 40px;
+    border-radius: 50%;
+  }
+  h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+    margin-left: 12px;
+    margin-right: auto;
+  }
+  h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+  }
+}
+
+.line {
+  max-width: 443px;
+  margin: 0 auto;
+  display: block;
+  transform: translate(0, -12px);
+}

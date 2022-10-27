@@ -8,6 +8,6 @@ input {
   width: 100%;
 
   ::placeholder {
-    color: var(--black2);
+    color: rgba(var(--black2), 0.7);
   }
 }

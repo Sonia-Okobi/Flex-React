@@ -1,0 +1,23 @@
+label {
+    span {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: var(--black);
+      display: block;
+    }
+    textarea {
+      padding: 17px 20px 20px 20px;
+      width: 100%;
+      color: var(--black);
+      background: var(--white);
+      border: 1px solid #c3cad9;
+      border-radius: 8px;
+      margin-top: 14px;
+      height: 137px;
+  
+      ::placeholder {
+        color: rgba(var(--black-rgb), 0.26);
+      }
+    }
+  }

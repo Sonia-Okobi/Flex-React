@@ -9,14 +9,14 @@ import overlay7 from '../../../../assets/images/Overlay-7.png';
 import overlay8 from '../../../../assets/images/Overlay-8.png';
 import avatar from '../../../../assets/images/Avatar@2x.png';
 import avatar2 from '../../../../assets/images/Avatar@2x-2.png';
-import Cards from '../../../../ui/organisms/card/Cards';
+import Card from '../../../../ui/organisms/card/Card';
 
 export default function BlogPosts() {
   return (
-    <div className="post-container">
-      <div className="post-container__section">
-        <div className="post-container__section__cards">
-          <Cards
+    <div className="post app-container">
+      <div className="app-container__section">
+        <div className="post__cards">
+          <Card
             image={overlay2}
             alternative="Overlay"
             header="Runaway Saas spend..."
@@ -26,7 +26,7 @@ export default function BlogPosts() {
             author="William Okafor"
             date="02 Dec"
           />
-          <Cards
+          <Card
             image={overlay3}
             alternative="Overlay"
             header="Growth of SaaS industry"
@@ -36,7 +36,7 @@ export default function BlogPosts() {
             author="Tina Lawal"
             date="02 Dec"
           />
-          <Cards
+          <Card
             image={overlay4}
             alternative="Overlay"
             header="Subscription model"
@@ -46,7 +46,7 @@ export default function BlogPosts() {
             author="Helen Afam"
             date="02 Dec"
           />
-          <Cards
+          <Card
             image={overlay5}
             alternative="Overlay"
             header="Future of subscription"
@@ -57,7 +57,7 @@ export default function BlogPosts() {
             author="Helen Afam"
             date="02 Dec"
           />
-          <Cards
+          <Card
             image={overlay6}
             alternative="Overlay"
             header="Prime video channels"
@@ -67,7 +67,7 @@ export default function BlogPosts() {
             author="William Okafor"
             date="02 Dec"
           />
-          <Cards
+          <Card
             image={overlay7}
             alternative="Overlay"
             header="Future of Learning"
@@ -78,17 +78,17 @@ export default function BlogPosts() {
             date="02 Dec"
           />
         </div>
-        <div className="post-container__section__card">
-          <div className="post-container__section__card__image">
+        <div className=" base-card post__card">
+          <div className="post__card__image">
             <img src={overlay8} alt="overlay" />
           </div>
-          <div className="post-container__section__card__text">
+          <div className="post__card__text">
             <h3>Future of Work</h3>
             <p>
               Majority of peole will work in jobs that don’t exist today....
             </p>
-            <div className="post-container__section__card__text__author">
-              <img src={avatar} alt="Avatar" />
+            <div className="author">
+              <img className='author__avatar' src={avatar} alt="Avatar" />
               <h4>William Okafor</h4>
               <h5>02 Dec</h5>
             </div>

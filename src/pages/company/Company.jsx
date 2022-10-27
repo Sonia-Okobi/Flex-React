@@ -5,7 +5,6 @@ import CompanyHero from './components/companyhero/CompanyHero';
 import ImageSlider from './components/imageSlider/ImageSlider';
 import Management from './components/management/Management';
 import Performance from './components/performance/Performance';
-import './index.scss';
 
 export default function Company() {
   return (

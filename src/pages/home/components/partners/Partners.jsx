@@ -5,12 +5,12 @@ import Button from '../../../../ui/atoms/buttons/Button';
 
 export default function Partners() {
   return (
-    <div className="partners-container">
-      <div className="partners-container__section">
-        <div className="partners-container__section__image">
+    <div className="partners app-container">
+      <div className="app-container__section">
+        <div className="partners__image">
           <img src={partners} alt="Partners" />
         </div>
-        <div className="partners-container__section__text">
+        <div className="partners__text">
           <h1>Our Partners</h1>
           <p>
             We build trust and confidence with our partners by being one of the

@@ -1,47 +1,58 @@
-.hero-container {
-  padding-left: 20px;
-  padding-right: 20px;
+@import '../../../../styles/mixins';
 
-  &__section {
-    max-width: 1233px;
-    margin: 0 auto;
-    display: flex;
-    margin-top: 68px;
+.home-hero {
+  &.app-container {
+    .app-container__section {
+      max-width: 1233px;
+      display: flex;
+      gap: 30px;
+      margin-top: 68px;
+    }
+  }
 
-    &__text {
-      margin-top: 118px;
-      margin-right: 34px;
-      h1 {
-        font-weight: 500;
-        line-height: 53px;
-        max-width: 493px;
-      }
-      p {
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 38px;
-        color: var(--black3);
-        max-width: 567px;
-        margin-top: 24px;
-        margin-bottom: 46px;
-      }
-      .register {
-        margin-right: 24px;
-      }
-      img {
-        margin-top: 50px;
-        width: 518px;
-      }
+  &__text {
+    margin-top: 118px;
+    margin-right: 34px;
+
+    h1 {
+      font-weight: 500;
+      line-height: 53px;
+      max-width: 493px;
     }
 
-    &__image {
-      max-width: 632px;
+    p {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 38px;
+      color: rgba(var(--black3-rgb), 0.9);
+      max-width: 567px;
+      margin-top: 24px;
+      margin-bottom: 46px;
+    }
+    &__button {
+      display: flex;
+    }
+    .register {
+      margin-right: 24px;
+      padding: 18px 39px;
+    }
+    .login {
+      padding: 18px 51px;
+    }
+    img {
+      margin-top: 50px;
+      width: 518px;
+    }
+  }
 
-      img {
-        width: 100%;
-        // transform: translate(33px, 0);
+  &__image {
+    max-width: 632px;
+    flex-shrink: 0;
 
-      }
+    img {
+      width: 100%;
+
+      // transform: translate(33px, 0);
     }
   }
 }

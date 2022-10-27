@@ -1,0 +1,56 @@
+@import '../assets/fonts/fonts.scss';
+@import './common.scss';
+
+:root {
+  --primary-color: rgb(98, 0, 240);
+  --primary-color-rgb: 98, 0, 240;
+  --white: #fff;
+  --white2: #f9fbfe;
+  --black: rgb(3, 6, 64);
+  --black-rgb: 3, 6, 64;
+  --black2: 35, 35, 64;
+  --body-color: #fafafe;
+  --black3: rgb(51, 51, 51);
+  --black3-rgb: 51, 51, 51;
+  --purple: #0c204c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  border: 0;
+  font-family: 'Cabin', sans-serif;
+}
+
+body {
+  background: var(--body-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: transparent;
+}
+
+h1 {
+  font-size: 44px;
+  color: var(--black);
+}
+
+h2 {
+  font-size: 37px;
+  color: var(--black);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 28px;
+  color: var(--black);
+  font-weight: 700;
+}

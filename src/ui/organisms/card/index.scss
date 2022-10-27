@@ -1,5 +1,4 @@
 .card-container {
-
   &__image {
     border-radius: 12px 12px 0px 0px;
     max-width: 360px;
@@ -21,33 +20,10 @@
       font-weight: 400;
       font-size: 18px;
       line-height: 32px;
-      color: var(--black3);
+      color: rgba(var(--black3-rgb), 0.9);
       margin-top: 12px;
       margin-bottom: 37px;
       max-width: 296px;
-    }
-    &__author {
-      display: flex;
-      align-items: center;
-
-      &__avatar {
-        width: 40px;
-        border-radius: 50%;
-      }
-      h4 {
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        color: var(--black);
-        margin-left: 12px;
-        margin-right: auto;
-      }
-      h5 {
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        color: var(--black);
-      }
     }
   }
 }

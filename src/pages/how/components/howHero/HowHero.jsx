@@ -6,14 +6,14 @@ import Button from '../../../../ui/atoms/buttons/Button';
 
 export default function HowHero() {
   return (
-    <div className="how-container">
-      <div className="how-container__section">
+    <div className="how app-container">
+      <div className="app-container__section">
         <h1>
           We Focus on <span>Structured</span> and Sustainable <br />{' '}
           Subscription Management.
         </h1>
-        <div className="how-container__section__information">
-          <div className="how-container__section__information__text">
+        <div className="how__information">
+          <div className="how__information__text">
             <hr />
             <h3>
               "A Platform you can trust to give you seamless and stress-free
@@ -24,9 +24,9 @@ export default function HowHero() {
               quick tour around Flex and see how it works. Sign up to get
               started!
             </p>
-            <Button className='how-container__section__information__text__button' icon={forwardarrow}>WATCH VIDEO</Button>
+            <Button icon={forwardarrow}>WATCH VIDEO</Button>
           </div>
-          <div className="how-container__section__information__image">
+          <div className="how__information__image">
             <img src={howlaptop} alt="Laptop" />
           </div>
         </div>

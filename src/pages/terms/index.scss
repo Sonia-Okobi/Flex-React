@@ -1,64 +1,55 @@
 body {
   position: relative;
 }
-.terms-container {
-  padding-left: 20px;
-  padding-right: 20px;
-
-  &__section {
-    max-width: 910px;
-    margin: 0 auto;
-
-    h1 {
+.terms {
+  &.app-container {
+    .app-container__section {
       margin-top: 103px;
-      font-weight: 700;
-      line-height: 72px;
-      text-align: center;
+      max-width: 910px;
     }
-    .line {
-      max-width: 443px;
+  }
+  h1 {
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+  }
+  &__conditions {
+    background: var(--white);
+    box-shadow: 0px 16px 81px rgba(111, 118, 138, 0.1);
+    border-radius: 16px;
+    padding: 46px 24px;
+    margin-top: 43px;
+    margin-bottom: 200px;
+
+    img {
+      position: absolute;
+      z-index: -1;
+      width: 100%;
       margin: 0 auto;
-      transform: translate(240px, -12px);
+      top: 214px;
+      left: 0;
     }
 
-    &__conditions {
-      background: var(--white);
-      box-shadow: 0px 16px 81px rgba(111, 118, 138, 0.1);
-      border-radius: 16px;
-      padding: 46px 24px;
-      margin-top: 43px;
-      margin-bottom: 200px;
-
-      img {
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        margin: 0 auto;
-        top: 214px;
-        left: 0;
-      }
-
-      &__description {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        color: var(--black);
-        opacity: 0.7;
-        margin-bottom: 40px;
-      }
-      h4 {
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 30px;
-        color: var(--black);
-      }
-      p {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        color: var(--black);
-        opacity: 0.7;
-      }
+    &__description {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: var(--black);
+      opacity: 0.7;
+      margin-bottom: 40px;
+    }
+    h4 {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 30px;
+      color: var(--black);
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: var(--black);
+      opacity: 0.7;
     }
   }
 }

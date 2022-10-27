@@ -1,68 +1,67 @@
-.functionalities-container {
-  padding-left: 20px;
-  padding-right: 20px;
+.functionalities {
+  &.app-container {
+    .app-container__section {
+      margin-top: 260px;
+    }
+  }
+  &__functionality1,
+  &__functionality2 {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
 
-  &__section {
-    max-width: 1170px;
-    margin: 0 auto;
+    &__image {
+      max-width: 520px;
+      flex-shrink: 0;
 
-    &__functionality1,
-    &__functionality2 {
-      display: flex;
-      justify-content: space-between;
+      img {
+        width: 100%;
+      }
+    }
 
-      &__image {
-        max-width: 520px;
+    &__text {
+      h1 {
+        max-width: 428px;
+        font-weight: 700;
+        line-height: 60px;
+      }
+      p {
+        max-width: 371px;
+        margin-top: 16px;
+        margin-bottom: 38px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: var(--black3);
+      }
+
+      &__feature {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        margin-bottom: 42px;
 
         img {
-          width: 100%;
+          width: 60px;
         }
-      }
 
-      &__text {
-        h1 {
-          max-width: 428px;
-          font-weight: 700;
-          line-height: 60px;
-        }
-        p {
-          max-width: 371px;
-          margin-top: 16px;
-          margin-bottom: 38px;
-          font-weight: 400;
+        h3 {
+          font-weight: 600;
           font-size: 24px;
-          line-height: 30px;
-          color: var(--black5);
-        }
+          line-height: 32px;
+          color: var(--black);
+          max-width: 310px;
 
-        &__feature {
-          display: flex;
-          align-items: center;
-          gap: 22px;
-          margin-bottom: 42px;
-
-          img {
-            width: 60px;
-          }
-
-          h3 {
-            font-weight: 600;
-            font-size: 24px;
-            line-height: 32px;
-            color: var(--black);
-            max-width: 310px;
-
-            // &:nth-child(2){
-            //     max-width: 260px;
-            // }
-          }
+          // &:nth-child(2){
+          //     max-width: 260px;
+          // }
         }
       }
     }
+  }
 
-    &__functionality2 {
-      margin-top: 260px;
-      flex-direction: row-reverse;
-    }
+  &__functionality2 {
+    margin-top: 260px;
+    flex-direction: row-reverse;
   }
 }

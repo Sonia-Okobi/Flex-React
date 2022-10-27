@@ -5,13 +5,13 @@ import payment from '../../../../assets/images/payment.png';
 
 export default function Subscription() {
   return (
-    <div className="subscriptions-container">
-      <div className="subscriptions-container__section">
-        <div className="subscriptions-container__section__subscription">
-          <div className="subscriptions-container__section__subscription__image">
+    <div className=".subscriptions app-container">
+      <div className="app-container__section">
+        <div className="subscriptions__subscription">
+          <div className="subscriptions__subscription__image">
             <img src={subscription} alt="Subscription" />
           </div>
-          <div className="subscriptions-container__section__subscription__text">
+          <div className="subscriptions__subscription__text">
             <h1>Operate on a single platform</h1>
             <p>
               Managing and keeping track of multiple subscriptions could be a
@@ -20,11 +20,11 @@ export default function Subscription() {
             </p>
           </div>
         </div>
-        <div className="subscriptions-container__section__payment">
-          <div className="subscriptions-container__section__subscription__image">
+        <div className="subscriptions__payment">
+          <div className="subscriptions__subscription__image">
             <img src={payment} alt="Payment" />
           </div>
-          <div className="subscriptions-container__section__subscription__text">
+          <div className="subscriptions__subscription__text">
             <h1>Take your subscription plan to another level</h1>
             <p>
               We provide our esteemed users with so much flexibility with our
