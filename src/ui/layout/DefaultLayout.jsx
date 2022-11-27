@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Footer from '../organisms/footer/Footer';
 import NavBar from '../organisms/navBar/NavBar';
-import './index.scss';
 
 export default function DefaultLayout({ children }) {
   const location = useLocation();
